@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string Choice;
+    
+    
+float x, w;
+  
+cout << "Please enter the amount needed." << endl;
+cin >> x;
+
+
+w = x/(1-0.0275);   
+
+cout << "The amount you need to charge is $"<< w << "." << endl;
+
+return (0);
+
+}
